@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\ProjetoWishList\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj": {}
+    "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\ProjetoWishList\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj": {
+    "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\ProjetoWishList\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj",
+        "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj",
         "projectName": "wish_list_senai.webApi",
-        "projectPath": "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\ProjetoWishList\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj",
-        "packagesPath": "C:\\Users\\Vitor Manoel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\ProjetoWishList\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\obj\\",
+        "projectPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\wish_list_senai.webApi.csproj",
+        "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\Desafio-Senai-Wish-List\\Back-End\\wish_list_senai.webApi\\wish_list_senai.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vitor Manoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
