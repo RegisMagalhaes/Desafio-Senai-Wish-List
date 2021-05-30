@@ -22,6 +22,13 @@ namespace wish_list_senai.webApi.Interfaces
         Usuario BuscarPorId(int id);
 
         /// <summary>
+        /// Busca um usuário pelo e-mail
+        /// </summary>
+        /// <param name="email">E-mail do usuário que será buscado</param>
+        /// <returns>Um usuário encontrado</returns>
+        Usuario BuscarPorEmail(string email);
+
+        /// <summary>
         /// Cadastra um usuário
         /// </summary>
         /// <param name="novoUsuario">Objeto novoUsuario com as informações</param>
@@ -33,7 +40,7 @@ namespace wish_list_senai.webApi.Interfaces
         /// <param name="id">Id do usuário que será atualizado</param>
         /// <param name="usuarioAtualizado">Objeto usuarioAtualizado com as novas informações</param>
         void Atualizar(int id, Usuario usuarioAtualizado);
-        
+
         /// <summary>
         /// Deleta um usuário existente através do Id
         /// </summary>

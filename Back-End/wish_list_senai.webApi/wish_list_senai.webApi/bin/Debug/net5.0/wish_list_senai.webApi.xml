@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>wish_list_senai.webApi</name>
+    </assembly>
+    <members>
+        <member name="M:wish_list_senai.webApi.Controllers.UsuariosController.Get">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Um Status code 200 - Ok e uma lista de usuários</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Controllers.UsuariosController.GetById(System.Int32)">
+            <summary>
+            Busca um usuário através do Id
+            </summary>
+            <param name="id">Id do usuário que será buscado</param>
+            <returns>Um status code 200 - Ok e um usuário encontrado, se não encontrar retorna NotFound</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Controllers.UsuariosController.Post(wish_list_senai.webApi.Domains.Usuario)">
+            <summary>
+            Cadastra um novo usuário
+            </summary>
+            <param name="novoUsuario">Objeto com as informações para cadastro</param>
+            <returns>Um status code 201 - Created</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Controllers.UsuariosController.Patch(System.Int32,wish_list_senai.webApi.ViewModels.UsuarioViewModel)">
+            <summary>
+            Atualiza um usuário existente
+            </summary>
+            <param name="id">Id do usuário que será atualizado</param>
+            <param name="usuarioAtualizado">Objeto usuarioAtualizado com as novas informações</param>
+            <returns>Um status code 204 - No Content</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Controllers.UsuariosController.Delete(System.Int32)">
+            <summary>
+            Deleta um usuário existente através do Id
+            </summary>
+            <param name="id">Id do usuário que será deletado</param>
+            <returns>Um status code 204 - NoContent</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Interfaces.IUsuarioRepository.Listar">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Uma lista de usuários</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Interfaces.IUsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um usuário através do Id
+            </summary>
+            <param name="id">Id do usuário que será buscado</param>
+            <returns>Um usuário encontrado</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Interfaces.IUsuarioRepository.BuscarPorEmail(System.String)">
+            <summary>
+            Busca um usuário pelo e-mail
+            </summary>
+            <param name="email">E-mail do usuário que será buscado</param>
+            <returns>Um usuário encontrado</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Interfaces.IUsuarioRepository.Cadastrar(wish_list_senai.webApi.Domains.Usuario)">
+            <summary>
+            Cadastra um usuário
+            </summary>
+            <param name="novoUsuario">Objeto novoUsuario com as informações</param>
+        </member>
+        <member name="M:wish_list_senai.webApi.Interfaces.IUsuarioRepository.Atualizar(System.Int32,wish_list_senai.webApi.Domains.Usuario)">
+            <summary>
+            Atualiza um usuário existente
+            </summary>
+            <param name="id">Id do usuário que será atualizado</param>
+            <param name="usuarioAtualizado">Objeto usuarioAtualizado com as novas informações</param>
+        </member>
+        <member name="M:wish_list_senai.webApi.Interfaces.IUsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um usuário existente através do Id
+            </summary>
+            <param name="id">Id do usuário que será deletado</param>
+        </member>
+        <member name="M:wish_list_senai.webApi.Repositories.UsuarioRepository.Atualizar(System.Int32,wish_list_senai.webApi.Domains.Usuario)">
+            <summary>
+            Atualiza um usuário existente
+            </summary>
+            <param name="id">Id do usuário que será atualizado</param>
+            <param name="usuarioAtualizado">Objeto usuarioAtualizado com as novas informações</param>
+        </member>
+        <member name="M:wish_list_senai.webApi.Repositories.UsuarioRepository.BuscarPorEmail(System.String)">
+            <summary>
+            Busca um usuário pelo e-mail
+            </summary>
+            <param name="email">E-mail do usuário que será buscado</param>
+            <returns>Um usuário encontrado</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Repositories.UsuarioRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um usuário através do Id
+            </summary>
+            <param name="id">Id do usuário que será buscado</param>
+            <returns>Um usuário encontrado</returns>
+        </member>
+        <member name="M:wish_list_senai.webApi.Repositories.UsuarioRepository.Cadastrar(wish_list_senai.webApi.Domains.Usuario)">
+            <summary>
+            Cadastra um usuário
+            </summary>
+            <param name="novoUsuario">Objeto novoUsuario com as informações</param>
+        </member>
+        <member name="M:wish_list_senai.webApi.Repositories.UsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um usuário existente através do Id
+            </summary>
+            <param name="id">Id do usuário que será deletado</param>
+        </member>
+        <member name="M:wish_list_senai.webApi.Repositories.UsuarioRepository.Listar">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Uma lista de usuários</returns>
+        </member>
+    </members>
+</doc>

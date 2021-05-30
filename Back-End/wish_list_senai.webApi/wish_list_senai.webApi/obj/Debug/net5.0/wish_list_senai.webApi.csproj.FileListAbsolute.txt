@@ -196,3 +196,5 @@ C:\Users\Vitor Manoel\OneDrive\Área de Trabalho\Projeto\Desafio-Senai-Wish-List
 C:\Users\Vitor Manoel\OneDrive\Área de Trabalho\Projeto\Desafio-Senai-Wish-List\Back-End\wish_list_senai.webApi\wish_list_senai.webApi\obj\Debug\net5.0\ref\wish_list_senai.webApi.dll
 C:\Users\Vitor Manoel\OneDrive\Área de Trabalho\Projeto\Desafio-Senai-Wish-List\Back-End\wish_list_senai.webApi\wish_list_senai.webApi\obj\Debug\net5.0\wish_list_senai.webApi.pdb
 C:\Users\Vitor Manoel\OneDrive\Área de Trabalho\Projeto\Desafio-Senai-Wish-List\Back-End\wish_list_senai.webApi\wish_list_senai.webApi\obj\Debug\net5.0\wish_list_senai.webApi.genruntimeconfig.cache
+C:\Users\Vitor Manoel\OneDrive\Área de Trabalho\Projeto\Desafio-Senai-Wish-List\Back-End\wish_list_senai.webApi\wish_list_senai.webApi\bin\Debug\net5.0\wish_list_senai.webApi.xml
+C:\Users\Vitor Manoel\OneDrive\Área de Trabalho\Projeto\Desafio-Senai-Wish-List\Back-End\wish_list_senai.webApi\wish_list_senai.webApi\obj\Debug\net5.0\wish_list_senai.webApi.xml
