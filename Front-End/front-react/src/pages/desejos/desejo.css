@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #90D3C7;
+}
+
+.listagem-logo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.39); */
+    align-items: center;
+}
+
+.listagem-logo img{
+    max-width: 300px;
+}
+
+.listagem{
+    width: 100%;
+    height: 500px;
+    /* background-color: #ccc; */
+    margin-top: 5em;
+}
+
+.content{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* background-color: rgba(0, 255, 255, 0.281); */
+}
+
+.lista{
+    width: 350px;
+    /* height: 140px; */
+    background-color: #4E7BBE;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.lista h3{
+    color: #F2DF7B
+}
+.listagemDesejos{
+    width: 100%;
+    /* height: 350px; */
+    /* background-color: rgba(255, 182, 193, 0.39); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+.titulo h3:nth-child(1){
+    margin-right: 4em;
+}
+
+.desejos{
+    display: flex;
+    width: 100%;
+    /* background-color: rgba(128, 128, 128, 0.534); */
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: center;
+}
+
+.desejo{
+    width: 40%;
+    /* background-color: rgba(172, 255, 47, 0.37); */
+    word-wrap: break-word;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F2DF7B;
+}
+
+.desejo-usuario{
+    width: 50%;
+    /* background-color: #ccc; */
+    word-wrap: break-word;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desejo p{
+    word-wrap: break-word;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.cadastrar-desejo{
+    width: 60%;
+    /* background-color: rgba(0, 0, 255, 0.541); */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastrar-desejo h4{
+    font-size: 22px;
+    color: #4E7BBE;
+    margin-bottom: 1em;
+}
+
+.cadastro{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgba(204, 204, 204, 0.438); */
+    display: flex;
+}
+
+.cadastrar{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgba(137, 43, 226, 0.411); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    width: 50%;
+    height: 100%;
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img{
+    max-width: 280px;
+}
+
+.input-cadastro{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 0.5em;
+    border-radius: 20px;
+    border: none;
+}
+
+.selecionar{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 0.5em;
+    border-radius: 20px;
+    border: none;
+    /* color: rgba(0, 0, 0, 0.582); */
+}
+
+.cadastrar button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4E7BBE;
+    color: #F2DF7B;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cadastrar p{
+    font-size: 14px;
+    margin-left: 2px;
+    color:#4E7BBE;
+    font-weight: 600;
+}
